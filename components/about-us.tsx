@@ -63,6 +63,7 @@ export default function AboutUs() {
 							className="
 								w-56 h-56 
 								z-50 
+								md:block hidden
 								rounded-full 
 								absolute 
 								left-1/2 
