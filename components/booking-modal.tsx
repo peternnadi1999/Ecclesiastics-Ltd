@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const calendlyUrl = "https://calendly.com/ecclesiasticsltd/30min";
+const calendlyUrl = "https://calendly.com/petnacode644/professional-cleaning-service";
 
 export default function BookingModal({
 	children,
