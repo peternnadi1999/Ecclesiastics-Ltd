@@ -10,9 +10,7 @@ export default function CTA() {
 						Let's Make It Sparkle
 					</h2>
 					<p className="text-sm md:text-xl text-white/90 max-w-2xl mx-auto">
-						Whether it’s your home, office, rental property, new build, or party
-						aftermath, Ecclesiastics Ltd is here to help you clean it, maintain
-						it, and elevate it.
+						From homes and offices to rental properties, new builds and post-party clean-ups, Ecclesiastics Ltd delivers more than cleaning; we clean, maintain and elevate every space.
 					</p>
 
 					<div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
