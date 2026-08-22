@@ -8,6 +8,7 @@ import Footer from "@/components/footer"
 import AboutUs from "@/components/about-us"
 import WhoWeServe from "@/components/who-we-serve"
 import ScrollToTop from "@/components/scroll-to-top"
+import Reviews from "@/components/reviews"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Team />
       <WhoWeServe/>
       <CTA />
+      {/* <Reviews/> */}
       <Footer />
       <ScrollToTop />
     </main>

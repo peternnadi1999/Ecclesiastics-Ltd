@@ -2,6 +2,7 @@
 
 import { ExternalLink, Star } from "lucide-react"
 import { motion } from "framer-motion"
+import Link from "next/link"
 
 const googleBusinessProfileUrl = "https://www.google.com/search?q=Ecclesiastics+Ltd+reviews"
 
@@ -36,11 +37,11 @@ export default function Reviews() {
             <p className="mb-3 text-sm font-bold uppercase tracking-[0.18em] text-primary">
               Google Business Profile
             </p>
-            <h2 className="font-display text-4xl font-semibold leading-tight text-[#191919] md:text-5xl">
+            <h2 className="font-display text-2xl font-semibold leading-tight text-[#191919] md:text-5xl">
               Clean spaces. Happy customers.
             </h2>
           </div>
-          <a
+          <Link
             href={googleBusinessProfileUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -48,7 +49,7 @@ export default function Reviews() {
           >
             View us on Google
             <ExternalLink className="h-4 w-4" aria-hidden="true" />
-          </a>
+          </Link>
         </div>
 
         <div className="grid gap-5 md:grid-cols-3">

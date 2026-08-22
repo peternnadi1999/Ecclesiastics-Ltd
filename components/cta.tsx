@@ -25,14 +25,14 @@ export default function CTA() {
 						>
 							Call Us Today
 						</Link>
-						<a
+						<Link
 							href="https://wa.me/447425171644"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="border-2 border-white text-white px-8 py-2 flex items-center justify-center rounded-full font-semibold hover:bg-white hover:text-primary/95 transition-colors text-center"
 						>
 							WhatsApp Us
-						</a>
+						</Link>
 					</div>
 
 					<div className="pt-8 text-white/90 text-base">
