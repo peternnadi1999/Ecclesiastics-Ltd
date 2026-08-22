@@ -4,24 +4,24 @@ import { ExternalLink, Star } from "lucide-react"
 import { motion } from "framer-motion"
 import Link from "next/link"
 
-const googleBusinessProfileUrl = "https://www.google.com/search?q=Ecclesiastics+Ltd+reviews"
+const googleBusinessProfileUrl = "https://g.page/r/CeitU8-cjQNhEAE/review"
 
 const reviews = [
   {
     quote:
-      "Professional, thorough, and genuinely thoughtful. The whole space felt transformed when they finished.",
+      "Recently had my house deep cleaned and I am genuinely impressed with the service. From the very first contact, communication was clear, friendly, and prompt. The person that came was polite and professional, and got straight to work. They were thorough and careful. The house looks and feels completely fresh afterwards, floors, bathrooms, kitchen areas were left sparkling. Thank you for your services",
     name: "Homeowner",
     detail: "Residential cleaning",
   },
   {
     quote:
-      "Reliable from booking to completion. The attention to detail made our property ready for guests straight away.",
-    name: "Property host",
-    detail: "Airbnb reset service",
+      "Anita!!!!! Thank you so so much for the cleaning! I didn't see it but I got a call from the Agency saying that the apartment was left well and properly clean. I don't think anyone has ever told me that before. Thank you so much.",
+    name: "Tenant",
+    detail: "Residential cleaning",
   },
   {
     quote:
-      "A friendly team who took real care with our office. Everything was spotless, fresh, and beautifully presented.",
+      "Splendid service, their staff did a great job for us and left the place sparkling. I will definitely recommend them.",
     name: "Business client",
     detail: "Commercial cleaning",
   },

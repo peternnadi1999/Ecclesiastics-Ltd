@@ -21,7 +21,7 @@ export default function Home() {
       <Team />
       <WhoWeServe/>
       <CTA />
-      {/* <Reviews/> */}
+      <Reviews/>
       <Footer />
       <ScrollToTop />
     </main>
