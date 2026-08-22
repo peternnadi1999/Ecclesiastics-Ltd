@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Footer() {
 	return (
 		<footer id="contact" className="bg-gray-50 border-t border-gray-200 py-12">
@@ -6,10 +7,12 @@ export default function Footer() {
 					<div>
 						<div className="flex mb-2 items-center space-x-3">
 							<div className="flex-shrink-0">
-								<img
+								<Image
 									src="/images/logo.png"
 									alt="Ecclesiastics Ltd"
-									className="h-12 w-auto rounded-md"
+									width={663}
+									height={804}
+									className="h-12  w-auto rounded-md"
 								/>
 							</div>
 							<h3 className="font-bold ml-2 text-foreground">

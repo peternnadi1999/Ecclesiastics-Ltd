@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import BookingModal from "./booking-modal";
 
@@ -20,9 +20,11 @@ export default function Navigation() {
 					{/* Logo */}
 					<div className="flex mb-2 cursor-pointer items-center space-x-3">
 						<div className="flex-shrink-0">
-							<img
+							<Image
 								src="/images/logo.png"
 								alt="Ecclesiastics Ltd"
+								width={663}
+								height={804}
 								className="h-12 w-auto rounded-md"
 							/>
 							

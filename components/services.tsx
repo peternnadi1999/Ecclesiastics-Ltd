@@ -1,5 +1,6 @@
 "use client"
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export default function Services() {
   const services = [
@@ -46,7 +47,7 @@ export default function Services() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-16">
-           {services.map((service, index) => (
+          {services.map((service, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 40 }}
@@ -56,9 +57,11 @@ export default function Services() {
               className="rounded-xl overflow-hidden bg-white border border-gray-200 hover:shadow-lg transition-shadow"
             >
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src={service.image}
                   alt={service.title}
+                  width={663}
+                  height={804}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
