@@ -13,7 +13,7 @@ export default function EcoCommitment() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="md:text-xl text-sm font-bold tracking-[0.08em] text-[#be0060] mb-2">
+          <h2 className="md:text-xl text-sm font-bold tracking-[0.08em] text-primary mb-2">
             Our Eco-Friendly Commitment
           </h2>
           <p className="md:text-2xl text-base font-bold text-black max-w-2xl mx-auto">
@@ -33,18 +33,18 @@ export default function EcoCommitment() {
             viewport={{ once: true, amount: 0.3 }}
             className="p-8 rounded-lg bg-white border border-gray-200"
           >
-            <h3 className="text-xl font-bold text-[#be0060] mb-2">For Occupants</h3>
+            <h3 className="text-xl font-bold text-primary mb-2">For Occupants</h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start gap-2">
-                <span className="text-[#be0060]">•</span>
+                <span className="text-primary">•</span>
                 <span>Improved indoor air quality</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#be0060]">•</span>
+                <span className="text-primary">•</span>
                 <span>Reduced exposure to harsh chemicals</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#be0060]">•</span>
+                <span className="text-primary">•</span>
                 <span>Safer for children, pets, and allergy-sensitive individuals</span>
               </li>
             </ul>
@@ -58,18 +58,18 @@ export default function EcoCommitment() {
             viewport={{ once: true, amount: 0.3 }}
             className="p-8 rounded-lg bg-white border border-gray-200"
           >
-            <h3 className="text-xl font-bold text-[#be0060] mb-2">For Our Staff</h3>
+            <h3 className="text-xl font-bold text-primary mb-2">For Our Staff</h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start gap-2">
-                <span className="text-[#be0060]">•</span>
+                <span className="text-primary">•</span>
                 <span>Lower risk of respiratory irritation</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#be0060]">•</span>
+                <span className="text-primary">•</span>
                 <span>Safer handling during cleaning</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#be0060]">•</span>
+                <span className="text-primary">•</span>
                 <span>More comfortable working conditions</span>
               </li>
             </ul>
@@ -83,18 +83,18 @@ export default function EcoCommitment() {
             viewport={{ once: true, amount: 0.3 }}
             className="p-8 rounded-lg bg-white border border-gray-200"
           >
-            <h3 className="text-xl font-bold text-[#be0060] mb-2">For Your Property</h3>
+            <h3 className="text-xl font-bold text-primary mb-2">For Your Property</h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start gap-2">
-                <span className="text-[#be0060]">•</span>
+                <span className="text-primary">•</span>
                 <span>Surfaces cleaned without damage</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#be0060]">•</span>
+                <span className="text-primary">•</span>
                 <span>Long-term preservation of materials</span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="text-[#be0060]">•</span>
+                <span className="text-primary">•</span>
                 <span>Extended finishes lifespan</span>
               </li>
             </ul>

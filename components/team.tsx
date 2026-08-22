@@ -23,7 +23,7 @@ export default function Team() {
           viewport={{ once: true }}
           className="mt-10 p-6 rounded-2xl bg-gradient-to-br from-gray-50 to-white shadow-lg border border-gray-200"
         >
-          <h2 className="md:text-xl text-base font-bold text-center tracking-[0.08em] text-[#be0060] mb-6">Our Team</h2>
+          <h2 className="md:text-xl text-base font-bold text-center tracking-[0.08em] text-primary mb-6">Our Team</h2>
           <p className="text-base leading-relaxed text-gray-700 max-w-3xl text-center mx-auto font-medium">
             We are a growing team of highly trained cleaners, space stylists, handymen,
             and maintenance professionals united by a commitment to excellence. Every

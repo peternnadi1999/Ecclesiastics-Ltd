@@ -1,5 +1,7 @@
 "use client"
 
+import BookingModal from "./booking-modal"
+
 export default function Hero() {
   return (
     <section
@@ -27,17 +29,14 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="https://calendly.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-[#be0060] text-white px-6 py-2 rounded-full font-semibold hover:bg-[#be005fe1] transition-colors text-center"
+        <BookingModal
+                className="bg-primary cursor-pointer text-white px-6 py-2 rounded-full font-semibold hover:bg-primary/90 transition-colors text-center"
               >
                 Book Consultation
-              </a>
+        </BookingModal>
               <button
                 onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
-                className="border border-[#be0060] text-white px-6 py-2 rounded-full font-semibold hover:bg-[#be005fe8] transition-colors"
+                className="border cursor-pointer border-primary text-white px-6 py-2 rounded-full font-semibold hover:bg-primary/90 transition-colors"
               >
                 View Services
               </button>

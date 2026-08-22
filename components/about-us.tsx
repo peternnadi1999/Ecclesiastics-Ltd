@@ -17,7 +17,7 @@ export default function AboutUs() {
 						transition={{ duration: 0.8 }}
 						className="space-y-5"
 					>
-						<h2 className="text-xl font-bold tracking-[0.08em] text-[#be0060]">
+						<h2 className="text-xl font-bold tracking-[0.08em] text-primary">
 							About Us
 						</h2>
 
@@ -45,34 +45,21 @@ export default function AboutUs() {
 						whileInView={{ opacity: 1, x: 0 }}
 						viewport={{ once: true, amount: 0.3 }}
 						transition={{ duration: 0.8 }}
-						className="relative h-96 md:h-full overflow-hidden"
+						className="relative h-96 md:h-[26rem]"
 					>
-						<Image
-							src="/images/about.png"
-							width={500}
-							height={500}
-							alt="Ecclesiastics Ltd team providing professional cleaning services"
-							className="w-full h-full z-10 object-cover"
-						/>
+						{/* Accent block behind the photo for depth */}
+						<div className="absolute -top-4 -right-4 w-full h-full rounded-2xl bg-primary/10 hidden md:block" />
+						<div className="absolute -bottom-4 -left-4 w-24 h-24 rounded-2xl bg-secondary/20 hidden md:block" />
 
-						<Image
-							src="/images/about-img2.jpg"
-							width={500}
-							height={500}
-							alt="Ecclesiastics Ltd team providing professional cleaning services"
-							className="
-								w-56 h-56 
-								z-50 
-								md:block hidden
-								rounded-full 
-								absolute 
-								left-1/2 
-								-translate-x-1/2 
-								-bottom-20 
-								object-cover 
-								animate-bounce
-							"
-						/>
+						<div className="relative w-full h-full rounded-2xl overflow-hidden shadow-xl ring-1 ring-black/5">
+							<Image
+								src="/images/about-clean.png"
+								width={663}
+								height={804}
+								alt="Ecclesiastics Ltd team providing professional cleaning services"
+								className="w-full h-full object-cover"
+							/>
+						</div>
 					</motion.div>
 				</div>
 			</div>

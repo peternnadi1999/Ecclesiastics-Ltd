@@ -15,12 +15,12 @@ const services = [
 
 export default function WhoWeServe() {
   return (
-    <section className="py-16 px-4 bg-white">
+    <section className="py-6 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
 
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="md:text-xl text-base font-bold tracking-[0.08em] text-[#be0060] mb-2">Who We Service</h2>
+          <h2 className="md:text-xl text-base font-bold tracking-[0.08em] text-primary mb-2">Who We Service</h2>
           <p className="md:text-2xl font-bold text-black max-w-2xl mx-auto">
             Ecclesiastics Ltd serves a diverse range of clients across the UK
           </p>

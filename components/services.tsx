@@ -21,7 +21,7 @@ export default function Services() {
     {
       title: "Airbnb Reset & Setup",
       description: "Full turnover and staging support for short-term rental hosts, including: Laundry services, Provision of guest consumables, Replenishment of essentials, Full cleaning and space preparation",
-      image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=500&h=400&fit=crop",
+      image: "/images/airbnb.png",
     },
     {
       title: "After-Party & Post-Event Clean-Ups",
@@ -39,7 +39,7 @@ export default function Services() {
     <section id="services" className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
-          <h2 className="text-xl font-bold tracking-[0.08em] text-[#be0060] mb-2">What We Do</h2>
+          <h2 className="text-xl font-bold tracking-[0.08em] text-primary mb-2">What We Do</h2>
           <p className="text-2xl font-bold text-black max-w-2xl mx-auto">
             Comprehensive cleaning and maintenance solutions tailored to your needs
           </p>
@@ -64,7 +64,7 @@ export default function Services() {
               </div>
 
               <div className="p-4">
-                <h3 className="text-lg tracking-[0.08em] font-bold text-[#be0060] mb-2">
+                <h3 className="text-lg tracking-[0.08em] font-bold text-primary mb-2">
                   {service.title}
                 </h3>
                 <p className="text-gray-700 tracking-[0.04em] text-base leading-relaxed">
@@ -75,8 +75,8 @@ export default function Services() {
           ))}
         </div>
 
-        <div className="mt-20 p-12 rounded-lg bg-gray-50 border-l-4  border-r-4 border-[#be0060]">
-          <h3 className="text-xl text-center font-bold text-[#be0060] mb-8">Why Choose Ecclesiastics Ltd?</h3>
+        <div className="mt-20 p-12 rounded-lg bg-gray-50 border-l-4  border-r-4 border-primary">
+          <h3 className="text-xl text-center font-bold text-primary mb-8">Why Choose Ecclesiastics Ltd?</h3>
           <div className="grid md:grid-cols-2 gap-6">
             {[
               "Registered & Reliable – Operating under UK best-practice standards",
@@ -86,7 +86,7 @@ export default function Services() {
               "Eco- & Health-Conscious – Safe products that protect both people and the planet",
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-3">
-                <span className="text-[#be0060] font-bold text-xl flex-shrink-0">✓</span>
+                <span className="text-primary font-bold text-xl flex-shrink-0">✓</span>
                 <span className="text-gray-700">{item}</span>
               </div>
             ))}
